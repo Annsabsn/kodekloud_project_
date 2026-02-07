@@ -1,0 +1,115 @@
+## Project Summary (Professional Way)
+
+As part of an AWS cloud migration project, I worked on managing and securing EC2 resources. One of my key responsibilities was to **protect critical EC2 instances from accidental operational actions**.
+I successfully enabled **Stop Protection** for an EC2 instance named `nautilus-ec2` in the **us-east-1** region to ensure service availability and prevent unintentional shutdowns.
+
+This task helped improve **operational safety, availability, and governance** within the AWS environment.
+
+---
+
+## What I Did in This Project
+
+* Identified a **critical EC2 instance** used in the migration setup
+* Understood the risk of **accidental instance stoppage**
+* Enabled **Stop Protection** to prevent unintended stop operations
+* Verified the configuration to ensure protection was active
+* Followed AWS best practices for instance management
+
+---
+
+## Project Steps (Easy & Interview-Friendly)
+
+### Step 1: Access AWS Console
+
+* Logged in to the **Amazon Web Services** Management Console
+* Selected the **us-east-1 (N. Virginia)** region
+
+### Step 2: Navigate to EC2 Service
+
+* Opened **EC2 Dashboard**
+* Went to **Instances** section
+
+### Step 3: Select the EC2 Instance
+
+* Located the instance named **`nautilus-ec2`**
+* Selected the instance
+
+### Step 4: Enable Stop Protection
+
+* Clicked **Actions → Instance settings**
+* Selected **Change stop protection**
+* Enabled **Stop Protection**
+* Saved the configuration
+
+### Step 5: Verify Configuration
+
+* Checked instance details
+* Confirmed **Stop protection = Enabled**
+
+---
+
+## Why This Step Is Important
+
+* Prevents **accidental shutdown**
+* Improves **availability**
+* Protects **production or critical workloads**
+* Aligns with **AWS operational best practices**
+
+---
+
+## Interview Questions & Easy Professional Answers
+
+### Q1. What is Stop Protection in EC2?
+
+**Answer:**
+Stop Protection is a feature in EC2 that prevents an instance from being accidentally stopped through the AWS Console, CLI, or API.
+
+---
+
+### Q2. Why did you enable Stop Protection for the instance?
+
+**Answer:**
+The instance was critical to the migration environment, and enabling Stop Protection ensured uninterrupted availability by avoiding accidental shutdowns.
+
+---
+
+### Q3. Does Stop Protection prevent termination?
+
+**Answer:**
+No. Stop Protection only prevents stopping the instance. Termination protection is a separate feature.
+
+---
+
+### Q4. Can Stop Protection be bypassed?
+
+**Answer:**
+Yes, but only after explicitly disabling Stop Protection. This adds an extra safety layer.
+
+---
+
+### Q5. In which scenarios is Stop Protection recommended?
+
+**Answer:**
+It is recommended for:
+
+* Production servers
+* Critical application instances
+* Migration-related infrastructure
+* Long-running workloads
+
+---
+
+### Q6. How does this task add value to a cloud project?
+
+**Answer:**
+It improves operational safety, reduces human error, and ensures high availability of critical resources.
+
+---
+
+### Advanced Interview Question
+
+### Q7. How is Stop Protection useful in DevOps environments?
+
+**Answer:**
+In DevOps, where frequent changes occur, Stop Protection prevents accidental downtime caused by automation scripts or manual actions, ensuring system reliability.
+
